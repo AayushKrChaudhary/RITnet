@@ -1,29 +1,20 @@
-# README #
+Instructions:
 
-This README would normally document whatever steps are necessary to get your application up and running.
+To train the model
+ 
+```python train.py --help```
+eg.
 
-### What is this repository for? ###
+```python train.py --model densenet --expname FINAL --bs 4 --useGPU True --dataset Semantic_Segmentation_Dataset/```
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
 
-### How do I get set up? ###
+To test the result:
+ 
+```python test.py --model densenet --load best_model.pkl --bs 4 --dataset Semantic_Segmentation_Dataset/```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
 
-* Writing tests
-* Code review
-* Other guidelines
+The requirements.txt file contains all the packages necessary for the code to run. We have also included an environment.yml file of the system which runs the code successfully.  Please refer to that file if there is an error with specific packages.
 
-### Who do I talk to? ###
 
-* Repo owner or admin
-* Other community or team contact
+

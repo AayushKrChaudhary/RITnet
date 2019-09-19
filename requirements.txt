@@ -1,0 +1,9 @@
+torchsummary
+tqdm
+matplotlib
+numpy
+torch 
+PIL   
+cv2   
+argparse  
+pprint 
