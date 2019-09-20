@@ -3,7 +3,10 @@
 """
 Created on Mon Sep  2 11:20:33 2019
 
-@author: Shusil Dangi (Adopted from Shusil Dangi)
+@author:(Adopted from Shusil Dangi)
+Github Link: https://github.com/ShusilDangi/DenseNet-K
+It is a simplied version of DenseNet
+
 """
 import torch
 import math

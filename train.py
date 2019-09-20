@@ -35,7 +35,7 @@ def lossandaccuracy(loader,model,factor):
             
             ## loss from cross entropy is weighted sum of pixel wise loss and Canny edge loss *20
             CE_loss = criterion(output,target)
-            loss = CE_loss*(torch.from_numpy(np.ones(spatialWeights.shape)).to(torch.float32).to(device)()+(spatialWeights).to(torch.float32).to(device)())
+            loss = CE_loss*(torch.from_numpy(np.ones(spatialWeights.shape)).to(torch.float32).to(device)+(spatialWeights).to(torch.float32).to(device))
             
             loss=torch.mean(loss).to(torch.float32).to(device)
             loss_dice = criterion_DICE(output,target)

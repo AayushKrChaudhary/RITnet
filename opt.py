@@ -8,7 +8,7 @@ def parse_args():
     parser.add_argument('--dataset', type=str, default='Semantic_Segmentation_Dataset/', help='name of dataset')
     # Optimization: General
     parser.add_argument('--bs', type=int, default = 8 )
-    parser.add_argument('--epochs', type=int,help='Number of epochs',default= 125)
+    parser.add_argument('--epochs', type=int,help='Number of epochs',default= 250)
     parser.add_argument('--workers', type=int,help='Number of workers',default=4)
     parser.add_argument('--model', help='model name',default='densenet')
     parser.add_argument('--evalsplit', help='eval spolit',default='val')
