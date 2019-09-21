@@ -4,8 +4,13 @@
 Created on Tue Aug 27 16:04:18 2019
 
 @author: Aayush Chaudhary
+
+References:
+    https://evalai-forum.cloudcv.org/t/fyi-on-semantic-segmentation/180
+    https://github.com/ycszen/pytorch-segmentation/blob/master/loss.py
+    https://discuss.pytorch.org/t/using-cross-entropy-loss-with-semantic-segmentation-model/31988
+    https://github.com/LIVIAETS/surface-loss
 """
-##https://github.com/Bjarten/early-stopping-pytorch/blob/master/pytorchtools.py
 import numpy as np
 import torch
 import torch.nn as nn
@@ -91,6 +96,7 @@ class GeneralizedDiceLoss(nn.Module):
         else:
             return 1. - dice_metric.clamp(min=self.epsilon)
 
+#https://github.com/LIVIAETS/surface-loss
 def one_hot2dist(posmask):
     # Input: Mask. Will be converted to Bool.
     # Author: Rakshit Kothari
@@ -119,6 +125,7 @@ def mIoU(predictions, targets,info=False):  ###Mean per class accuracy
         print ("per-class mIOU: ", ious)
     return np.mean(ious)
     
+#https://evalai-forum.cloudcv.org/t/fyi-on-semantic-segmentation/180
 #GA: Global Pixel Accuracy
 #CA: Mean Class Accuracy for different classes
 #

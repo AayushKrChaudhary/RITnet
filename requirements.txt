@@ -7,3 +7,6 @@ PIL
 cv2   
 argparse  
 pprint 
+torchvision
+os
+

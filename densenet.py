@@ -3,10 +3,12 @@
 """
 Created on Mon Sep  2 11:20:33 2019
 
-@author:(Adopted from Shusil Dangi)
-Github Link: https://github.com/ShusilDangi/DenseNet-K
-It is a simplied version of DenseNet
+@author: Shusil Dangi
 
+References:
+    https://github.com/ShusilDangi/DenseUNet-K
+It is a simplied version of DenseNet with U-NET architecture.
+2D implementation
 """
 import torch
 import math
