@@ -66,7 +66,7 @@ Train Image Augmentation Procedure Followed (Not Required during test)
 
 
 (Note that the model name and the structured pattern name (starburst) may vary in the paper if declared the winner. In the source code we have not changed it and sent the original code as we ran on our system). 
-
+```
 ##################################################################################################
 ##################################################################################################
 ----------------------------------------------------------------
@@ -190,4 +190,4 @@ Params size (MB): 0.95
 Estimated Total Size (MB): 1922.34
 ----------------------------------------------------------------
 
-
+```
