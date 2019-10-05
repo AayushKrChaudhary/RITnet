@@ -1,3 +1,13 @@
+If you use this code, please cite:
+@misc{chaudhary2019ritnet,
+    title={RITnet: Real-time Semantic Segmentation of the Eye for Gaze Tracking},
+    author={Aayush K. Chaudhary and Rakshit Kothari and Manoj Acharya and Shusil Dangi and Nitinraj Nair and Reynold Bailey and Christopher Kanan and Gabriel Diaz and Jeff B. Pelz},
+    year={2019},
+    eprint={1910.00694},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+
 Instructions:
 
 ```python train.py --help```
