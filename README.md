@@ -1,13 +1,14 @@
 If you use this code, please cite:
 ```
-@misc{chaudhary2019ritnet,
-    title={RITnet: Real-time Semantic Segmentation of the Eye for Gaze Tracking},
-    author={Aayush K. Chaudhary and Rakshit Kothari and Manoj Acharya and Shusil Dangi and Nitinraj Nair and Reynold Bailey and Christopher Kanan and Gabriel Diaz and Jeff B. Pelz},
-    year={2019},
-    eprint={1910.00694},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+@inproceedings{chaudhary2019ritnet,
+  title={RITnet: real-time semantic segmentation of the eye for gaze tracking},
+  author={Chaudhary, Aayush K and Kothari, Rakshit and Acharya, Manoj and Dangi, Shusil and Nair, Nitinraj and Bailey, Reynold and Kanan, Christopher and Diaz, Gabriel and Pelz, Jeff B},
+  booktitle={2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)},
+  pages={3698--3702},
+  year={2019},
+  organization={IEEE}
 }
+
 ```
 
 Instructions:
