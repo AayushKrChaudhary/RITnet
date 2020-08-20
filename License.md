@@ -1,6 +1,6 @@
 The MIT License
 
-Copyright (c) 2011 Aayush Chaudhary, Rakshit Kothari, Manoj Acharya, Shusil Dangi, Nitinraj Nair, Reynold Bailey, Christopher Kanan, Gabriel Diaz, and Jeff Pelz
+Copyright (c) 2019 Aayush Chaudhary, Rakshit Kothari, Manoj Acharya, Shusil Dangi, Nitinraj Nair, Reynold Bailey, Christopher Kanan, Gabriel Diaz, and Jeff Pelz
 
 Permission is hereby granted, free of charge, 
 to any person obtaining a copy of this software and 
